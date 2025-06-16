@@ -1,0 +1,13 @@
+/* Fuente personalizada */
+@import "@fontsource/inter/index.css";
+
+/* Tailwind v4 */
+@import "tailwindcss/preflight";
+@import "tailwindcss/utilities";
+
+/* Estilos globales */
+body {
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  color: #2c3e50;
+  background-color: white;
+}
