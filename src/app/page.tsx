@@ -2,6 +2,7 @@
 
 import HeroSection from "@/components/HeroSection";
 import ServicesSection from "@/components/ServicesSection";
+import SolucionesLufatsecSection from "@/components/SolucionesLufatsecSection";
 import WhyLufatsecSection from "@/components/WhyLufatsecSection";
 import SuccessCasesSection from "@/components/SuccessCasesSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
@@ -16,6 +17,7 @@ export default function HomePage() {
       <main className="flex flex-col items-center justify-center">
         <HeroSection />
         <ServicesSection />
+        <SolucionesLufatsecSection />
         <WhyLufatsecSection />
         <SuccessCasesSection />
         <TestimonialsSection />
