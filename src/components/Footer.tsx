@@ -23,9 +23,9 @@ export default function Footer() {
           <h3 className="font-semibold mb-2 text-white">Secciones</h3>
           <ul className="space-y-1">
             <li><a href="#hero" className="hover:underline">Inicio</a></li>
-            <li><a href="#services" className="hover:underline">Servicios</a></li>
-            <li><a href="#cases" className="hover:underline">Casos de éxito</a></li>
-            <li><a href="#contact" className="hover:underline">Contacto</a></li>
+            <li><a href="#servicios" className="hover:underline">Servicios</a></li>
+            <li><a href="#casos-exito" className="hover:underline">Casos de éxito</a></li>
+            <li><a href="#contacto" className="hover:underline">Contacto</a></li>
           </ul>
         </div>
 
