@@ -1,13 +1,14 @@
 @import "@fontsource/inter/index.css";
 
 /* Tailwind v4: reemplazo de @tailwind base, components, utilities */
-@import "tailwindcss/preflight";
-@import "tailwindcss/components";
-@import "tailwindcss/utilities";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 
 /* Estilos globales */
 body {
   font-family: Inter, ui-sans-serif, system-ui, sans-serif;
-  color: theme("colors.neutral");
-  background-color: theme("colors.white");
+  @apply text-neutral bg-white;
+
 }
