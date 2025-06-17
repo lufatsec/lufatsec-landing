@@ -6,8 +6,8 @@ import { Menu, X } from "lucide-react";
 const navLinks = [
   { label: "Inicio", href: "#hero" },
   { label: "Servicios", href: "#servicios" },
-  { label: "¿Por qué LUFATSEC?", href: "#porque" },
-  { label: "Casos", href: "#casos" },
+  { label: "¿Por qué LUFATSEC?", href: "#por-que-lufatsec" },
+  { label: "Casos", href: "#casos-exito" },
   { label: "Testimonios", href: "#testimonios" },
   { label: "Contacto", href: "#contacto" },
 ];
