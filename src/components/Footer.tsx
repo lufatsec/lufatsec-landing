@@ -48,7 +48,7 @@ export default function Footer() {
 
       {/* Línea inferior */}
       <div className="border-t border-gray-800 text-center py-4 text-xs text-muted">
-        © 2025 LUFATSEC · Hecho en México · <a href="#" className="hover:underline">Aviso de privacidad</a>
+        © {new Date().getFullYear()} LUFATSEC · Hecho en México · <a href="#" className="hover:underline">Aviso de privacidad</a>
       </div>
     </footer>
   );
