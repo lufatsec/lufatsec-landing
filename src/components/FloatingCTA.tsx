@@ -80,10 +80,16 @@ export default function FloatingCTA() {
             duration: 2,
             ease: "easeInOut",
           }}
-          className="absolute -top-2 -right-2 bg-white text-accent text-[10px] font-bold px-2 py-0.5 rounded-full"
+          className={`
+            text-[10px] font-bold px-2 py-0.5 rounded-full bg-white text-accent shadow-md
+            absolute 
+            sm:-top-2 sm:-right-2 
+            top-0 right-0 translate-x-1/4 -translate-y-1/4
+          `}
         >
           Nuevo 💬
-        </motion.div>               
+        </motion.div>
+                       
         
         )}
       </Link>
