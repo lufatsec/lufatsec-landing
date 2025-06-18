@@ -9,6 +9,8 @@ import TestimonialsSection from "@/components/TestimonialsSection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
+import FaqsSection from "@/components/FaqsSection";
+import FloatingCTA from "@/components/FloatingCTA";
 
 export default function HomePage() {
   return (
@@ -21,9 +23,11 @@ export default function HomePage() {
         <WhyLufatsecSection />
         <SuccessCasesSection />
         <TestimonialsSection />
+        <FaqsSection />
         <ContactSection />
       </main>
       <Footer />
+      <FloatingCTA />
     </>
   );
 }

@@ -11,7 +11,8 @@ module.exports = {
         background: "#0e1b2a",
         muted: "#f5f7fa",
         "text-light": "#e5e7eb",
-      },
+        accent: "#00d9a6",
+      },      
       fontFamily: {
         sans: ["Inter", "ui-sans-serif", "system-ui", "sans-serif"],
       },
