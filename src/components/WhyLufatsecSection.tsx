@@ -1,13 +1,9 @@
 "use client";
 
 import { motion } from "framer-motion";
-import dynamic from "next/dynamic";
 import { CheckCircle } from "lucide-react";
-
-const Player = dynamic(
-  () => import("@lottiefiles/react-lottie-player").then(mod => mod.Player),
-  { ssr: false }
-);
+import Lottie from "lottie-react";
+import whyLufatsecAnimation from "@/assets/lotties/por-que-lufatsec2.json";
 
 export default function WhyLufatsecSection() {
   const differentiators = [
@@ -66,11 +62,11 @@ export default function WhyLufatsecSection() {
           viewport={{ once: true }}
           className="w-full flex justify-center"
         >
-          <Player
-            autoplay
+          <Lottie
+            animationData={whyLufatsecAnimation}
             loop
-            src="https://assets2.lottiefiles.com/packages/lf20_kkflmtur.json"
-            style={{ height: "360px", width: "360px" }}
+            autoplay
+            className="w-full max-w-[360px] h-auto"
           />
         </motion.div>
       </div>

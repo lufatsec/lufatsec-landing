@@ -4,12 +4,8 @@ import { Disclosure } from "@headlessui/react";
 import { ChevronDown } from "lucide-react";
 import { motion } from "framer-motion";
 import clsx from "clsx";
-import dynamic from "next/dynamic";
-
-const Player = dynamic(
-  () => import("@lottiefiles/react-lottie-player").then(mod => mod.Player),
-  { ssr: false }
-);
+import Lottie from "lottie-react";
+import faqsLottie from "@/assets/lotties/faqs-animation.json";
 
 const faqs = [
   {
@@ -54,11 +50,11 @@ export default function FaqsSection() {
           viewport={{ once: true }}
           className="w-full flex justify-center"
         >
-          <Player
-            autoplay
+          <Lottie
+            animationData={faqsLottie}
             loop
-            src="https://lottie.host/6efab4cc-ff14-4c88-8051-c29e252bff2f/VNoe5a7WmN.json"
-            style={{ height: "360px", width: "360px" }}
+            autoplay
+            className="w-full max-w-[360px] h-auto"
           />
         </motion.div>
 
