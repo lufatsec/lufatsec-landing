@@ -49,7 +49,8 @@ export default function TestimonialsSection() {
           Lo que opinan nuestros clientes
         </h2>
         <p className="text-lg text-text-light max-w-xl mx-auto">
-          Cada historia es una muestra de impacto real. Conoce cómo ayudamos a empresas como la tuya.
+          Cada historia es una muestra de impacto real. Conoce cómo ayudamos a
+          empresas como la tuya.
         </p>
       </div>
 
@@ -72,11 +73,9 @@ export default function TestimonialsSection() {
                 className="rounded-full border-2 border-secondary mb-4"
               />
               <p className="italic text-lg mb-4">
-                "{testimonials[index].quote}"
+                &quot;{testimonials[index].quote}&quot;
               </p>
-              <h4 className="font-bold text-xl">
-                {testimonials[index].name}
-              </h4>
+              <h4 className="font-bold text-xl">{testimonials[index].name}</h4>
               <p className="text-text-light">{testimonials[index].role}</p>
             </div>
           </motion.div>
