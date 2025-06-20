@@ -10,8 +10,9 @@ const navLinks = [
   { label: "Servicios", href: "#servicios" },
   { label: "Soluciones LUFATSEC", href: "#soluciones" },
   { label: "¿Por qué LUFATSEC?", href: "#por-que-lufatsec" },
-  { label: "Casos", href: "#casos-exito" },
+  { label: "Casos Éxito", href: "#casos-exito" },
   { label: "Testimonios", href: "#testimonios" },
+  
   { label: "Contacto", href: "#contacto" },
 ];
 
@@ -20,7 +21,9 @@ export default function Navbar() {
   const [activeSection, setActiveSection] = useState<string>("");
 
   useEffect(() => {
+    console.log("Navbar montado");
     const handleScroll = () => {
+      console.log("scrollY:", window.scrollY); // <-- ¿se ejecuta?
       const sections = navLinks.map((link) =>
         document.querySelector(link.href)
       );
