@@ -23,7 +23,6 @@ export default function Navbar() {
   useEffect(() => {
     console.log("Navbar montado");
     const handleScroll = () => {
-      console.log("scrollY:", window.scrollY); // <-- ¿se ejecuta?
       const sections = navLinks.map((link) =>
         document.querySelector(link.href)
       );
